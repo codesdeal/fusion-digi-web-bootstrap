@@ -4,6 +4,7 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -109,45 +110,54 @@ span.big-screen-search-icon {
     position: absolute;
     left: 10px;
 }
-.custom-border-radius{
+
+.custom-border-radius {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-.custom-border-radius-btn{
+
+.custom-border-radius-btn {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
 @media (max-width: 768px) {
-    .custom-border-radius{
+    .custom-border-radius {
         border-top-right-radius: 0.375rem;
         border-bottom-right-radius: 0.375rem;
     }
-    .custom-border-radius-btn{
+
+    .custom-border-radius-btn {
         border-top-left-radius: 0.375rem;
         border-bottom-left-radius: 0.375rem;
     }
 }
+
 .tab-button.active {
     background-color: #007bff;
     color: white;
-  }
-  .tab-content {
-    display: none;
-  }
-  .tab-content.active {
-    display: block;
-  }
+}
 
-  .fdw-footer-v2 {
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.fdw-footer-v2 {
     background: #0B1720;
     display: block;
     width: 100%;
-    height: auto;    
-  }
-  .fdw-footer-v2 ul li a {
+    height: auto;
+}
+
+.fdw-footer-v2 ul li a {
     color: var(--light);
-  }
-  .get-proposal-btn {
+}
+
+.get-proposal-btn {
     padding: 12px 24px;
     font-weight: 600;
     font-family: inherit;
@@ -162,17 +172,174 @@ span.big-screen-search-icon {
     border-radius: 4px;
     text-decoration: none;
     white-space: nowrap;
-  }
-  .sticky-top {
-    font-family: 'Inter',sans-serif;
-    /* position: sticky; */
+}
+
+.sticky-top {
+    font-family: 'Inter', sans-serif;
+    position: sticky;
     z-index: 99;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #fff;
-    box-shadow: rgba(3,27,78,.1) 0 2px 4px;
+    box-shadow: rgba(3, 27, 78, .1) 0 2px 4px;
 }
-#tabbed-content-area .tab-content{
+
+#tabbed-content-area .tab-content {
     height: 400px;
 }
+
+.footer-section {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-xs-text {
+    font-size: 13px;
+}
+
+.footer-margin {
+    margin-bottom: 33px;
+    margin-top: 20px;
+}
+
+button.btn.bth-custom-hover {
+    width: 100%;
+    background: #fff;
+    color: #207de9;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #207de9;
+    transition: .2s;
+}
+
+button.btn.bth-custom-hover:hover {
+    color: #ffffff;
+    background: #207de9;
+}
+
+.footer-inner-style-2 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+@media (max-width: 768px) {
+    .footer-inner-style-2 div{
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+
+.row.footer-inner-style {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    align-items: flex-start;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 50px 0;
+}
+
+@media (max-width: 768px) {
+    .row.footer-inner-style {
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .row.footer-inner-style {
+        margin: 0 30px;
+    }
+
+    .footer-section {
+        margin-bottom: 0;
+    }
+
+}
+
+.footer-heading {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+a.footer-option-title-2 {
+    font-size: 11px;
+    transition: .2s;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+a.footer-option-title-2:hover {
+    border-bottom: 1px solid #ffff;
+}
+a.footer-option-title {
+    font-size: 12px;
+    transition: .2s;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+a.footer-option-title:hover {
+    border-bottom: 1px solid #ffff;
+}
+
+li.custom-margin-bottom-li {
+    margin-bottom: 10px;
+}
+
+.footer-heading a {
+    color: #fff;
+}
+
+.footer-heading a {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #14344c;
+    padding-bottom: 20px;
+}
+
+.footer-bootom {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.social-icon-footer{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+.social-icon-footer a{
+    margin: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .footer-left-ext-padding {
+      padding-right: 3rem !important; /* Adjust the value as needed */
+    }
+  }
+  
+  .footer-left-ext-padding {
+    padding-right: auto !important; /* Allow browser to determine padding */
+  }
+  
+  @media (max-width: 768px) {
+    .show-desktop-hide-mobile {
+      display: none !important; /* Hide on mobile */
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .show-desktop-hide-mobile {
+      display: block !important; /* Show on desktop */
+    }
+  }
+  
