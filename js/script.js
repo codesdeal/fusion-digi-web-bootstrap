@@ -76,8 +76,6 @@ document.addEventListener('DOMContentLoaded', function() {
         div.textContent = result;
         resultsContainer.appendChild(div);
       });
-    }
-  
-   
+    }   
   });
   
