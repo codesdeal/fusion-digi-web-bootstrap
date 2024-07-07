@@ -241,7 +241,6 @@ button.btn.bth-custom-hover:hover {
     justify-content: space-between;
     margin: 0 90px;
     align-items: flex-start;
-    border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 50px 0;
 }
@@ -270,7 +269,7 @@ button.btn.bth-custom-hover:hover {
 }
 
 a.footer-option-title-2 {
-    font-size: 11px;
+    font-size: 14px;
     transition: .2s;
     margin-bottom: 15px;
     color: #fff;
@@ -280,7 +279,7 @@ a.footer-option-title-2:hover {
     border-bottom: 1px solid #ffff;
 }
 a.footer-option-title {
-    font-size: 12px;
+    font-size: 14px;
     transition: .2s;
     margin-bottom: 15px;
     color: #fff;
