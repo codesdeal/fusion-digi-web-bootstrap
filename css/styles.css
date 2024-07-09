@@ -618,3 +618,6 @@ li.custom-margin-bottom-li {
       margin-bottom: 0;
     }
   }
+  .location-hover:hover{
+    background: rgba(0, 0, 0, 0.062);
+  }
