@@ -1013,7 +1013,10 @@ a.solutions-button {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transform: .3s;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .profile-card:hover{
     background-color: #ededed;
@@ -1022,9 +1025,11 @@ a.solutions-button {
 .profile-picture {
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 10px;
     float: left;
-    width: 100%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 30px auto;
 }
 
 .linkedin-icon {
@@ -1051,7 +1056,16 @@ a.solutions-button {
 .profile-icon i {
     font-size: 20px;
 }
-.display-5.fw-bold.leadershiip-title {
+.leadershiip-title {
     text-align: center;
     margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+    .leadershiip-title {
+        margin-bottom: 20px;
+    }
+}
+.btn-center{
+    text-align: center;
+    margin-top: 30px;
 }
