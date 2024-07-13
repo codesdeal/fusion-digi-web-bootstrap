@@ -1069,3 +1069,7 @@ a.solutions-button {
     text-align: center;
     margin-top: 30px;
 }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(32 125 233);
+    font-weight: 500;
+}
