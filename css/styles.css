@@ -352,7 +352,7 @@ li.custom-margin-bottom-li {
 
 .section-title {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 @media (max-width: 768px) {
     .section-title {
@@ -361,10 +361,19 @@ li.custom-margin-bottom-li {
     .section-margin-bottom{
         margin-bottom: 40px !important;
     }
+    .section-padding-bottom{
+        padding-bottom: 40px !important;
+    }
 }
 
 .section-margin-bottom {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+}
+.section-padding-bottom {
+    padding-bottom: 80px;
+}
+.custom-border-bottom{
+    border-bottom: 1px solid #ededed;
 }
 
 .location {
@@ -581,7 +590,7 @@ li.custom-margin-bottom-li {
     transform: translateX(-50%);
 }
 .review-section-title-margin{
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     text-align: center;
 }
 .review-card {
@@ -943,8 +952,24 @@ a.solutions-button {
 .middle-space{
     margin-top: 50px;
 }
+.middle-space-2{
+    margin-top: 80px;
+}
+@media (max-width: 767px) {
+    .middle-space{
+        margin-top: 50px;
+    }
+}
 .row-margin-top{
     margin-top: 20px;
+}
+.row-padding-top{
+    padding: 80px 0;
+}
+@media (max-width: 767px) {
+    .row-padding-top{
+        padding: 40px 0;
+    } 
 }
 .custom-text-color{
     color: #207DE9;
@@ -1058,7 +1083,7 @@ a.solutions-button {
 }
 .leadershiip-title {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 @media (max-width: 767px) {
     .leadershiip-title {
@@ -1072,4 +1097,159 @@ a.solutions-button {
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: rgb(32 125 233);
     font-weight: 500;
+}
+
+.title-margin-bottom{
+    margin-bottom: 25px;
+}
+.excutive-summary-icon{
+    text-align: center;
+    margin: 20px 0;
+}
+.excutive-summary-icon i {
+    font-size: 35px;
+    color: lightseagreen;
+}
+.excutive-summary-text {
+    text-align: center;
+    font-size: 16px;
+}
+.custom-card-3 .card-header{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    background: #fff;
+}
+.custom-bg{
+    background: #ededed;
+}
+.card.custom-card-3 {
+    border: 0;
+}
+.card.custom-card-3 .card-title {
+    margin: 20px 0;
+}
+.custom-justify-content-center{
+    justify-content: center;
+}
+.custom-text-center{
+    text-align: center;
+}
+.icon-bottom-section{
+    margin-bottom: 20px;
+}
+.content-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.content-item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.section-icon-green {
+    font-size: 24px;
+    color: var(--success);
+    margin-right: 16px;
+    display: flex;
+}
+.challenge-section-icon {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-right: 16px;
+    display: flex;
+}
+
+.content-text h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.content-text p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+.quote-section{
+    padding: 30px;
+}
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    color: #333;
+    margin: 0 0 50px;
+}
+.blockquote-2{
+    font-size: 15px;
+    font-style: normal;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-text {
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+.profile-text strong {
+    font-size: 16px;
+    color: #333;
+}
+.consultation-icon{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.consultation-title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+.consultation-number {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.card-custom-style {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 0;
+}
+.card-peragraph {
+    font-size: 16px;
+}
+.view-case-btn {
+    color: #198754;
+    transition: .1s;
+}
+.view-case-btn:hover{
+    background: #198754;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.custom-body-padding{
+    padding: 15px;
+}
+.margin-x-remove{
+    margin-left: 0;
+    margin-right: 0;
 }
