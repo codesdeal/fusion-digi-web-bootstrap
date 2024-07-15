@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fusion DigiWeb Marketing Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Header content goes here -->
+  <header id="header-area">
+    <div class="container-fluid">
+      <div class="row justify-content-between mx-2 mt-3 d-lg-flex d-none">
+        <div class="col-md-3">
+          <a href="#">
+            <div style="font-size: 13px;" class="fw-bold">REVENUE DRIVEN FOR OUR CLIENTS</div>
+            <div style="font-size: 18px; color: var(--primary);" class="fw-bold"> <i
+                class="fa-solid fa-chart-simple"></i> $10,085,355,239+</div>
+          </a>
+        </div>
+        <div class="col-md-9 d-flex justify-content-end top-right-option">
+          <a href="#" id="search-link"><i class="fa-solid fa-magnifying-glass me-2"></i> Search</a>
+          <div id="search-overlay" class="search-overlay">
+            <div class="search-bar-container">
+              <span class="big-screen-search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input type="text" id="search-input" placeholder="Type to search...">
+              <button id="close-search">&times;</button>
+            </div>
+            <div id="search-results">no search result</div>
+          </div>
+          <a href="#">Client Login</a>
+          <a href="#" style="color: var(--primary);" class="top-menu-num-hover fw-bold">888-601-5359</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- Navigation content goes here -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm d-lg-flex d-none">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo-fusion-digiweb.png" height="60" class="logo" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="testimonial.html">testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service-page.html">service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">about</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div>
+          <button type="submit" class="btn btn-primary get-proposal-btn">Get a Proposal</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- mobile-menu -->
+  <div class="border-bottom d-lg-none d-block">
+    <div class="p-4 d-flex justify-content-between align-items-center">
+      <div>
+        <a href="#" style="color: var(--primary);" class="top-menu-num-hover fw-bold">888-601-5359</a>
+      </div>
+
+      <div>
+        <button type="submit" class="btn btn-primary">get a proposal</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="sticky-top d-lg-none d-block" id="sticky-menu">
+    <div class="p-4 d-flex justify-content-between align-items-center shadow-sm">
+      <div>
+        <a href="#" style="color: var(--primary);" class="top-menu-num-hover fw-bold">
+          <img height="60" src="img/logo-fusion-digiweb.png" class="logo" alt="">
+        </a>
+      </div>
+      <div>
+        <a href="#" id="menu-toggle"><i class="fa-solid fa-bars"></i></a>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="p-3 pt-0">
+        <a class="py-3 border-bottom" href="#">Menu Item 1</a>
+        <a class="py-3 border-bottom" href="#">Menu Item 2</a>
+        <a class="nav-link dropdown-toggle py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </a>
+        <ul class="dropdown-menu cusotm-full-width-dropdown">
+          <li><a class="dropdown-item py-1" href="#">Action</a></li>
+          <li><a class="dropdown-item py-1" href="#">Another action</a></li>
+          <li><a class="dropdown-item py-1" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+      <div class="d-flex justify-content-between p-3 bg-light">
+        <a id="mobile-search-link" class="bg-white py-2 px-5 border"><i class="fa-solid fa-magnifying-glass"></i>
+          search</a>
+
+        <a href="#" class="bg-white py-2 px-5 border">clint login</a>
+      </div>
+    </div>
+  </div>
+
+
+  <main>
+    <section id="top-image" class="section-margin-bottom bg-image">
+      <div class="container">
+        <div class="row g-4">
+          <h1 class="title-margin-bottom">Ultimate PPC Management Pricing Guide (2024)
+          </h1>
+          <p>No one likes to get ripped off. At BizIQ, we believe in total pricing transparency and good old fashioned
+            small business frugality. Keeping our own costs down allows us to pass the savings to you, and makes it
+            possible for us to offer some of the lowest prices in the industry.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- video section -->
+    <section id="video-section" class="section-margin-bottom ">
+      <div class="container section-padding-bottom border-bottom">
+        <div class="row g-4">
+          <div class="col-md-6 video-col">
+            <iframe src="https://www.youtube.com/embed/DjpXZbF-qrg" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+
+          </div>
+          <div class="col-md-6">
+            <h3 class="title-margin-bottom custom-text-color">BizIQ’s Local Online Marketing Packages offer small &
+              medium sized businesses the most affordable, transparent solution for PPC Advertising in the industry.
+            </h3>
+
+            <p>It is our mission to make pay-per-click promotion accessible to small businesses across the United States
+              by offering affordable packages that give small business owners the visibility they need to get found
+              online, all with guaranteed results and no term contracts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Management Pricing -->
+    <section id="pricing-management-sectlion" class="section-margin-bottom">
+      <div class="container">
+        <div class="row custom-bg-setup">
+          <h3 class="custom-text-center title-margin-bottom">Pay-Per-Click Management Pricing</h3>
+          <div class="col-md-3 col-12 custom-text-center custom-background">
+            <h5>Campaign Setup</h5>
+            <h6>($399-$699)</h6>
+          </div>
+          <div class="col-md-6 col-12 custom-text-center custom-background">
+            <h5>Monthly PPC Management</h5>
+            <h6>($399-$8,149)</h6>
+          </div>
+          <div class="col-md-3 col-12 custom-text-center custom-background">
+            <h5>Ad Spend</h5>
+            <h6>($500-$50,000)</h6>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="accordion px-0" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button shadow-none" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <table class="table table-bordered table-hover">
+                    <tbody>
+                      <tr>
+                        <td>Search Advertising Copy Creation (Ad Build Out)</td>
+                        <td>Pre-Launch Keyword Research</td>
+                      </tr>
+                      <tr>
+                        <td>Google Account Creation</td>
+                        <td>Google Billing Integration</td>
+                      </tr>
+                      <tr>
+                        <td>Landing Page Creation (if applicable)</td>
+                        <td>Ad Scheduling</td>
+                      </tr>
+                      <tr>
+                        <td>Conversion Tracking Integration (tracking number, form fill)</td>
+                        <td>Geographic Targeting</td>
+                      </tr>
+                      <tr>
+                        <td>Onboarding Meeting w/ Dedicated Project Manager – 24-48 hours from agreement</td>
+                        <td>Immediate Top of Page 1 Placement on Google</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <table class="table table-bordered table-hover">
+                    <tbody>
+                      <tr>
+                        <td>Search Advertising Copy Creation (Ad Build Out)</td>
+                        <td>Pre-Launch Keyword Research</td>
+                      </tr>
+                      <tr>
+                        <td>Google Account Creation</td>
+                        <td>Google Billing Integration</td>
+                      </tr>
+                      <tr>
+                        <td>Landing Page Creation (if applicable)</td>
+                        <td>Ad Scheduling</td>
+                      </tr>
+                      <tr>
+                        <td>Conversion Tracking Integration (tracking number, form fill)</td>
+                        <td>Geographic Targeting</td>
+                      </tr>
+                      <tr>
+                        <td>Onboarding Meeting w/ Dedicated Project Manager – 24-48 hours from agreement</td>
+                        <td>Immediate Top of Page 1 Placement on Google</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin
+                  adds the appropriate classes that we use to style each element. These classes control the overall
+                  appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                  custom
+                  CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                  the
+                  <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="up-down-space">
+            <button class="btn btn-outline-primary">get started now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ppc section -->
+    <section id="quoted-text" class="custom-bg-2 section-margin-bottom">
+      <div class="container custom-padding">
+        <div>
+          <h4 class="title-margin-bottom-2"><i class="fa-solid fa-circle-arrow-right me-2"></i> How is PPC Management
+            Pricing Determined</h4>
+          <p>If you’ve researched pay-per-click pricing before, you’ve probably noticed that there is no industry
+            standard in management fees. Most marketing companies charge a management fee along with the ad spend that
+            will actually get your ads up and running. The problem is, most companies do not differentiate between
+            pay-per-click campaign ad spend and the fee they charge to manage and optimize the campaign. Unfortunately,
+            that means that it’s very easy to get ripped off. You never really know how much of your budget is actually
+            going to running advertisements that bring you new clients, or how much of your hard-earned money is going
+            towards a shiny new office for that corporate executive.</p>
+        </div>
+        <div class="middle-space"></div>
+        <div>
+          <h4 class="title-margin-bottom-2"><i class="fa-solid fa-circle-arrow-right me-2"></i> How is PPC Management
+            Pricing Determined</h4>
+          <p>If you’ve researched pay-per-click pricing before, you’ve probably noticed that there is no industry
+            standard in management fees. Most marketing companies charge a management fee along with the ad spend that
+            will actually get your ads up and running. The problem is, most companies do not differentiate between
+            pay-per-click campaign ad spend and the fee they charge to manage and optimize the campaign. Unfortunately,
+            that means that it’s very easy to get ripped off. You never really know how much of your budget is actually
+            going to running advertisements that bring you new clients, or how much of your hard-earned money is going
+            towards a shiny new office for that corporate executive.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- parallax section -->
+    <section id="parallax-section" class="section-margin-bottom">
+      <div class="parallax-section">
+
+        <div class="parallax-section-content">
+          <h1>Pick the Right Package.</h1>
+          <p>Get a Free 10 Minute Consultation with a Paid Media Consultant.</p>
+          <p>We find opportunities to save on 100% of new clients with existing campaigns!</p>
+          <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="parallax-section-btn">Talk With a PPC
+            Specialist</button>
+        </div>
+
+
+    </section>
+
+    <!-- PPC Marketing Package section -->
+    <section id="PPC-Marketing-Package" class="section-margin-bottom ">
+      <div class="container section-padding-bottom border-bottom">
+        <div class="row g-4">
+          <div class="col-md-6 video-col">
+            <img class="img-fluid" src="./img/about.jpg" alt="">
+
+          </div>
+          <div class="col-md-6">
+            <h3 class="title-margin-bottom">
+              Which PPC Marketing Package is Right for Me?
+            </h3>
+
+            <p>
+              More money does not always equal more results. The real key to getting results from promotion is to have
+              ongoing, expert optimization. While you may have a general idea of how much you’ll need to dedicate to ad
+              spend each month in order to get results, our pay-per-click Marketing Consultants have been able to find
+              ways to save on 100% of our new client accounts. In fact, they can usually find opportunities for savings
+            </p>
+            <p>
+              and better results in under 10 minutes!
+              Our pay-per-click packages are priced to grow with your company. A quick consultation with a Consultant
+              will give you the information you need to know which package to start with, and set goals for ongoing
+              growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- parallax section -->
+    <section id="parallax-section" class="section-margin-bottom">
+      <div class="parallax-section custom-arrow">
+        <div class="parallax-section-content green-bg">
+          <div class="row custom-justify-content-center">
+            <div class="col-md-8">
+              <h1 class="title-margin-bottom">Why Choose BizIQ for PPC Advertising</h1>
+              <p class="small-txt">Besides offering the best and most transparent pricing in the industry, our
+                specialists have years of experience managing budgets from a few hundred dollars, to six and seven
+                figure ad budgets. They have completed rigorous training, and have earned Google’s Certification. They
+                know what it takes to get real results for our small business partners, all while finding ways to save
+                them money.</p>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+
+    <!-- text-section -->
+    <section id="text-section" class="section-margin-bottom">
+      <div class="container">
+        <p>
+          Marketing spend is usually a somewhat difficult figure to arrive at, because there is always a tradeoff
+          between what you are trying to accomplish on a given campaign, and what it will cost to achieve that.
+        </p>
+        <p>
+          For instance, if you’re embarking on a campaign which is intended to raise brand awareness for your company,
+          it will be difficult to measure your return on investment, as you don’t receive a lot of direct feedback in
+          that area. However, if the purpose of your campaign is to increase your sales by 10%, this is much more
+          measurable, and will therefore be much easier to calculate how much you need to spend in order to achieve that
+          objective.
+        </p>
+        <div class="section-col-margin">
+          <h3 class="title-margin-bottom-2">Google Ads Advertising</h3>
+          <img src="https://biziq.com/wp-content/uploads/PPC-Advertising-Pricing-Google-Ads-1.png" alt="Facebook Ads"
+            class="float-image">
+          <p> Google Ads, formerly known as Google AdWords, is an online advertising platform that allows advertisers to
+            bid on certain keywords for their clickable advertisements to appear alongside search engine results.</p>
+
+          <p>Google Ads is an advertisement system in which individuals bid on specific keywords so that their clickable
+            adverts will appear in the search results provided when a consumer searches for that service or product.
+            Advertisers pay for these clicks, and that’s how Google profits from all the searches which are conducted.
+          </p>
+          <p>
+            This kind of arrangement can be extremely effective, as long as your company is bidding on relevant keywords
+            that accurately reflect the nature of your company. Google auctions off these keywords regularly, and
+            companies bid on them so that their advertisements will be the ones featured most prominently.
+          </p>
+          <p>
+            There are a number of benefits that accrue to any company using these advertisements, the first of which is
+            that they can provide visibility much quicker than SEO does. It’s also much more straightforward to measure
+            performance, and you have a much better opportunity of competing with your rivals when you use Google’s
+            adverts.
+          </p>
+          <p>
+            The amount of money you spend can depend on a few factors, including the size of the geographic area you’re
+            interested in, the search volume, the competitiveness of your particular industry, and your specific sales
+            goals. We take all of this into account when we compile a strategy with you and will recommend the best use
+            of your ad spend based upon your budget and promoting goals to ensure that customers see and interact with
+            you over your competition.
+          </p>
+        </div>
+
+        <div class="section-col-margin">
+          <h3 class="title-margin-bottom-2">Facebook Ads Advertising</h3>
+          <img src="https://biziq.com/wp-content/uploads/PPC-Advertising-Pricing-FB-Ads.jpg" alt="Facebook Ads"
+            class="float-image">
+          <p><a href="#">Facebook advertisements</a> are paid messages that businesses write in their voice and use to
+            reach their target audience. Advertisers will have specific goals and will create campaigns to help them
+            achieve their objectives. These offer a lot of flexibility, allowing you to choose the level of complexity
+            of the advertisement.</p>
+          <p>Facebook Ads are those which appear within your newsfeed or in the right-hand column of your Facebook
+            desktop display. They will also appear in your news feed on mobile devices, and they are frequently coupled
+            with news about social actions taken by your friends, for instance like a particular page.</p>
+          <p>One of the main benefits of these promotions is that they are extremely effective at targeting audiences.
+            The platform provides all manner of options so that we can ensure your promotions are shown to precisely the
+            right demographic, location, and people with specific purchasing behaviors.</p>
+          <p>The platform provides a Management tool to make it easy to handle all your campaigns and to target your
+            ideal customers with the products they are most likely to buy. Social networks provide a tremendous user
+            base, and that is also a huge benefit to advertisers who wish to break into larger markets.</p>
+          <p>Another advantage of using these promotions is that you will have access to detailed analytics when you
+            view the Insights tab, such as the...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- parallax -->
+    <section id="parallax-section" class="section-margin-bottom">
+      <div class="parallax-section-solid-color custom-arrow-2">
+        <div class="parallax-section-content bg-dark">
+          <div class="row custom-justify-content-center">
+            <div class="col-md-8">
+              <h1 class="title-margin-bottom">Establish Your Strategy Today</h1>
+              <p class="small-txt">With the various ways in which PPC can benefit your business, you should have an
+                effective strategy to
+                ensure the success of your campaign. A good strategy will also help you get a decent return on
+                investment, a factor that will contribute to your bottom line.</p>
+              <p class="small-txt">At BizIQ, we help small businesses to increase their online visibility through smart
+                promotional
+                solutions. Talk to us to learn more about our services and how we can help you achieve your goals.</p>
+              <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="parallax-section-btn">Get Proposal
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- logo section -->
+    <section id="logo-section" class="section-margin-bottom">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-2 col-md-4 col-6">
+            <img class="img-fluid"
+              src="https://biziq.com/wp-content/uploads/2021-Best-GMB-SEO-Company-e1610147256348.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img class="img-fluid"
+              src="https://biziq.com/wp-content/uploads/2021-Best-GMB-SEO-Company-e1610147256348.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img class="img-fluid"
+              src="https://biziq.com/wp-content/uploads/2021-Best-GMB-SEO-Company-e1610147256348.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img class="img-fluid"
+              src="https://biziq.com/wp-content/uploads/2021-Best-GMB-SEO-Company-e1610147256348.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img class="img-fluid"
+              src="https://biziq.com/wp-content/uploads/2021-Best-GMB-SEO-Company-e1610147256348.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img class="img-fluid"
+              src="https://biziq.com/wp-content/uploads/2021-Best-GMB-SEO-Company-e1610147256348.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- parallax -->
+    <section id="parallax-section" class="section-margin-bottom">
+      <div class="parallax-section-solid-color">
+        <div class="parallax-section-content custom-bg-3">
+          <div class="row custom-justify-content-center">
+            <div class="col-md-8">
+              <h1 class="title-margin-bottom">Establish Your Strategy Today</h1>
+              <p class="small-txt">With the various ways in which PPC can benefit your business, you should have an
+                effective strategy to
+                ensure the success of your campaign. A good strategy will also help you get a decent return on
+                investment, a factor that will contribute to your bottom line.</p>
+              <p class="small-txt">At BizIQ, we help small businesses to increase their online visibility through smart
+                promotional
+                solutions. Talk to us to learn more about our services and how we can help you achieve your goals.</p>
+              <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="parallax-section-btn">Get Proposal
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body row g-4">
+            <div class="col-lg-4 text-start">
+              <h3>Do More Than Just Survive. It's Time to Thrive.</h3>
+              <p>Fill out this form to talk to a Marketing Expert from BizIQ, one of the highest-rated marketing
+                agencies in North America.</p>
+
+              <div class="price-list-items">
+                <div><i class="fa-solid fa-check me-3"></i></div>
+                <div>Get your marketing questions answered</div>
+              </div>
+
+              <div class="price-list-items">
+                <div><i class="fa-solid fa-check me-3"></i></div>
+                <div>Find out what your competition is doing to outperform you online</div>
+              </div>
+
+              <div class="price-list-items">
+                <div><i class="fa-solid fa-check me-3"></i></div>
+                <div>Learn how you can reach more potential customers and generate more leads by marketing smarter,
+                  not harder</div>
+              </div>
+
+
+            </div>
+            <div class="col-lg-8 pricing-form">
+              <div class="">
+                <div class="partner-form">
+                  <div class="form-container">
+                    <h4 class="parter-form-title">Become a BizIQ Partner</h4>
+                    <form class="partner-form-inputs">
+                      <input type="text" class="form-input" placeholder="First Name">
+                      <input type="text" class="form-input" placeholder="Last Name">
+                      <select class="form-input">
+                        <option>Partnership Type</option>
+                        <option>Partnership Type</option>
+                        <option>Partnership Type</option>
+                        <!-- Add more options as needed -->
+                      </select>
+                      <input type="text" class="form-input" placeholder="Company Name">
+                      <div class="form-row">
+                        <input type="email" class="form-input-half" placeholder="Email">
+                        <input type="tel" class="form-input-half" placeholder="Phone Number">
+                      </div>
+
+                      <div class="btn-center">
+                        <button class="btn btn-outline-dark col-md-6 col-12">send</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </main>
+
+
+  <footer class="fdw-footer-v2">
+    <div class="container-fluid p-0">
+      <div class="row footer-inner-style">
+        <div class="col-lg-2 col-md-6 col-12 footer-section mb-5 footer-left-ext-padding">
+          <ul class="nav flex-column">
+            <li> <a href="#"><img class="w-100" src="img/logo-fusion-digiweb.png" alt=""></a> </li>
+            <li class="footer-xs-text footer-margin">Celebrating 25+ Years of Digital Marketing Excellence</li>
+            <li>Ready to speak with a marketing expert? Give us a ring</li>
+            <li><button class="btn bth-custom-hover">111 444 555</button></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-12 footer-section">
+
+          <!-- for large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">SERVICES</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing Services</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO Services</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC Services</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing Services</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media Services</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design Services</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Advertising
+                  Services</a></li>
+            </ul>
+          </div>
+
+
+          <!-- for mobile -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading">
+              <a href="#" id="services-toggle">
+                SERVICES <i class="fa-solid fa-chevron-down ms-3"></i>
+              </a>
+            </div>
+            <ul id="services-list" class="list-unstyled d-none">
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Digital Marketing Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">SEO Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">PPC Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Content Marketing Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Social Media Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Web Design Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Digital Advertising Services</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+          <!-- for large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">KNOWLEDGEBASE</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Amazon</a></li>
+            </ul>
+          </div>
+
+          <!-- for mobile screen -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading"><a href="#" id="toggleKnowledgebase">KNOWLEDGEBASE <i
+                  class="fa-solid fa-chevron-down ms-3"></i></a></div>
+            <ul class="list-unstyled d-none" id="knowledgebaseList">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Amazon</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+          <!-- for large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">ROLES</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing Agency</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing Agency</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Industries We Serve</a></li>
+            </ul>
+          </div>
+
+          <!-- for mobile screen -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading" id="toggleRoles"> <a href="#">ROLES <i
+                  class="fa-solid fa-chevron-down ms-3"></i></a> </div>
+            <ul class="list-unstyled" id="rolesList">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing Agency</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing Agency</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Industries We Serve</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+          <!-- for large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">COMPANY</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">About Us</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Careers</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Community Impact</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Contact Us</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Locations</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Phishing Scam Alert</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Tools</a></li>
+            </ul>
+          </div>
+
+          <!-- for mobile screen -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading" id="toggleCompany">
+              <a href="#">COMPANY <i class="fa-solid fa-chevron-down ms-3"></i></a>
+            </div>
+            <ul class="list-unstyled" id="companyList">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">About Us</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Careers</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Community Impact</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Contact Us</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Locations</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Phishing Scam Alert</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Tools</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+          <!-- large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">EXPLORE</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Color Picker</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Emoji Cheat Sheet</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Conversion Rate Calculator</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO in Digital Marketing</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO vs. SEM</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Return on Ad Spend</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">ROAS Calculator</a></li>
+            </ul>
+          </div>
+
+          <!-- mobile screen -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading" id="toggleExplore"> <a href="#">EXPLORE <i
+                  class="fa-solid fa-chevron-down ms-3"></i></a> </div>
+            <ul class="list-unstyled" id="exploreList">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Color Picker</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Emoji Cheat Sheet</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Conversion Rate Calculator</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO in Digital Marketing</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO vs. SEM</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Return on Ad Spend</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">ROAS Calculator</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row footer-inner-style-2">
+      <div class="col-lg-10 footer-bootom">
+        <p>PROUDLY BROUGHT TO YOU BY WEBFX</p>
+      </div>
+      <div class="col-lg-2">
+        <div class="">
+          <div class="footer-bootom"> WebFX® 1995-2024</div>
+          <a class="footer-option-title me-2" href="#">Sitemap</a>
+          <a class="footer-option-title-2" href="#">Privacy & Terms of Use</a>
+          <div class="social-icon-footer">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js" async></script>
+
+  <script>
+    // Tab functionality
+    const tabs = document.querySelectorAll('.tab-button');
+    const contents = document.querySelectorAll('.tab-content');
+
+    function hideAllContents() {
+      contents.forEach(content => {
+        content.classList.remove('active');
+      });
+    }
+
+    function deactivateAllTabs() {
+      tabs.forEach(tab => {
+        tab.classList.remove('active');
+      });
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', function () {
+        hideAllContents();
+        deactivateAllTabs();
+
+        const target = this.getAttribute('data-target');
+        document.getElementById(target).classList.add('active');
+        this.classList.add('active');
+      });
+    });
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+      // Function to toggle visibility
+      function toggleVisibility(toggleId, listId) {
+        var toggle = document.getElementById(toggleId);
+        var list = document.getElementById(listId);
+
+        if (toggle && list) {
+          toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            list.classList.toggle('d-none');
+          });
+        }
+      }
+
+      // Toggle for KNOWLEDGEBASE
+      toggleVisibility('toggleKnowledgebase', 'knowledgebaseList');
+
+      // Toggle for ROLES
+      toggleVisibility('toggleRoles', 'rolesList');
+
+      // Toggle for COMPANY
+      toggleVisibility('toggleCompany', 'companyList');
+
+      // Toggle for EXPLORE
+      toggleVisibility('toggleExplore', 'exploreList');
+
+      // Toggle for SERVICES
+      toggleVisibility('services-toggle', 'services-list');
+
+      // Ensure other sections are initially hidden
+      var sectionsToHide = ['rolesList', 'companyList', 'exploreList'];
+      sectionsToHide.forEach(function (sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+          section.classList.add('d-none');
+        }
+      });
+
+      // icon item
+      const iconItems = document.querySelectorAll('.icon-item');
+
+      iconItems.forEach(item => {
+        item.addEventListener('click', () => {
+          // Remove the active class from all items
+          iconItems.forEach(i => i.classList.remove('icon-item-active'));
+          // Add the active class to the clicked item
+          item.classList.add('icon-item-active');
+        });
+      });
+    });
+
+
+  </script>
+</body>
+
+</html>
