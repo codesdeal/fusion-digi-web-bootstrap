@@ -370,7 +370,7 @@ li.custom-margin-bottom-li {
     margin-bottom: 70px;
 }
 .section-padding-bottom {
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 .custom-border-bottom{
     border-bottom: 1px solid #ededed;
@@ -979,6 +979,7 @@ a.solutions-button {
 }
 .rotated-background-color{
     position: relative;
+    z-index: 1;
 }
 .rotated-background-color::after {
     content: '';
@@ -1100,7 +1101,10 @@ a.solutions-button {
 }
 
 .title-margin-bottom{
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
+}
+.title-margin-bottom-2{
+    margin-bottom: 10px !important;
 }
 .excutive-summary-icon{
     text-align: center;
@@ -1122,6 +1126,15 @@ a.solutions-button {
 }
 .custom-bg{
     background: #ededed;
+}
+.custom-bg-2 {
+    background: var(--bs-purple);
+    color: #fff;
+}
+
+.custom-bg-3 {
+    background: #2998cd !important;
+    color: #fff;
 }
 .card.custom-card-3 {
     border: 0;
@@ -1252,4 +1265,176 @@ blockquote {
 .margin-x-remove{
     margin-left: 0;
     margin-right: 0;
+}
+.bg-image{
+    background-image: url(../img/billboard-pay-per-click.jpg);
+    object-fit: cover;
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    padding: 80px;
+}
+@media (max-width: 767px) {
+    .bg-image{
+        padding: 40px;
+    }
+}
+.bg-image::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.479);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.col-md-6.video-col iframe {
+    width: 100%;
+    height: 300px;
+}
+.custom-bg-setup > .custom-background:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  .custom-bg-setup > .custom-background:nth-child(3) {
+    background-color: #0dcaf0;
+  }
+  
+  .custom-bg-setup > .custom-background:nth-child(4) {
+    background-color: #fd7e14;
+  }
+  .custom-background{
+    padding: 10px;
+  }
+
+  .up-down-space{
+    margin: 30px 0;
+    text-align: center;
+  }
+  .up-down-space button {
+    padding: 10px 20px;
+}
+
+.custom-padding{
+    padding: 50px;
+}
+
+@media (max-width: 767px) {
+    .custom-padding{
+        padding: 30px;
+    }
+}
+
+.parallax-section-solid-color {
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.parallax-section {
+    position: relative;
+    background: url('../img/about.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.parallax-section-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 80px 20px;
+    width: 100%;
+}
+.green-bg {
+    background-color: rgb(0 20 179 / 50%);
+}
+
+.parallax-section-content h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.parallax-section-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.parallax-section-btn {
+    background-color: #f39c12;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.parallax-section-btn:hover {
+    background-color: #e67e22;
+}
+.modal-content{
+    color: #000;
+}
+.pricing-form{
+    background: #FFA945;
+}
+.pricing-form .form-container{
+    padding: 20px;
+}
+.price-list-items{
+    margin-bottom: 15px;
+    display: flex;
+}
+.modal-header {
+    background: #fff;
+    z-index: 1;
+}
+button.parallax-section-btn {
+    margin-top: 35px;
+}
+.small-txt{
+    font-size: 14px !important;
+    line-height: 24px;
+}
+.custom-arrow{
+    position: relative;
+}
+.custom-arrow::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid rgb(255, 255, 255);
+    bottom: 0;
+}
+.custom-arrow-2{
+    position: relative;
+}
+.custom-arrow-2::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgb(255, 255, 255);
+    top: 0;
+}
+
+
+.float-image {
+    float: right;
+    margin: 0 0 10px 20px;
+    max-width: 260px; /* Adjust as needed */
+    height: auto;
 }
