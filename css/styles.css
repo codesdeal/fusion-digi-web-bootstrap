@@ -1438,3 +1438,6 @@ button.parallax-section-btn {
     max-width: 260px; /* Adjust as needed */
     height: auto;
 }
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
