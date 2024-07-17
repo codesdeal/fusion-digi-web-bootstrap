@@ -294,6 +294,9 @@ a.footer-option-title:hover {
 li.custom-margin-bottom-li {
     margin-bottom: 10px;
 }
+.custom-margin-bottom-sm{
+    margin-bottom: 5px !important;
+}
 
 .footer-heading a {
     color: #fff;
@@ -378,6 +381,7 @@ li.custom-margin-bottom-li {
 
 .location {
     text-align: left;
+    padding: 10px;
 }
 
 @media (max-width: 425px) {
@@ -435,6 +439,12 @@ li.custom-margin-bottom-li {
     height: 100%;
     border: 1px solid lightgray;
     border-radius: 10px;
+    position: relative;
+    transition: .3s;
+    overflow: hidden;
+}
+.card-container:hover{
+    background: rgba(0, 0, 0, 0.062);
 }
 .blog-bold-txt-2 {
     font-size: 18px;
@@ -455,6 +465,8 @@ li.custom-margin-bottom-li {
 }
 .image-overlay{
     position: relative;
+    border-radius: 8px;
+    overflow: hidden;
 }
 @media (max-width: 425px) {
     .image-overlay{
@@ -476,6 +488,26 @@ li.custom-margin-bottom-li {
     opacity: 0;
     transition: .5s;
 }
+.image-content-help-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.445);
+    opacity: 0;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.image-overlay:hover .image-content-help-section{
+    opacity: 1;
+}
 .custom-card-text {
     font-weight: 600;
     margin-bottom: 10px;
@@ -488,6 +520,7 @@ li.custom-margin-bottom-li {
 .image-overlay:hover .image-content{
     opacity: 1;
 }
+
 
 .portfolio-small-txt {
     font-weight: 600;
@@ -519,6 +552,7 @@ li.custom-margin-bottom-li {
 .portfolio-margin-bottom {
     margin-bottom: 20px;
     padding: 0 10px;
+    position: relative;
 }
 .blog-section-handle {
     display: block;
@@ -1246,6 +1280,16 @@ blockquote {
     padding: 20px;
     border-bottom: 0;
 }
+.card-header.card-custom-style {
+    padding: 10px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.card-header-image {
+    width: 56px;
+}
 .card-peragraph {
     font-size: 16px;
 }
@@ -1263,8 +1307,7 @@ blockquote {
     padding: 15px;
 }
 .margin-x-remove{
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 .bg-image{
     background-image: url(../img/billboard-pay-per-click.jpg);
@@ -1318,6 +1361,9 @@ blockquote {
     padding: 10px 20px;
 }
 
+.custom-padding-2{
+    padding: 10px;
+}
 .custom-padding{
     padding: 50px;
 }
@@ -1438,6 +1484,101 @@ button.parallax-section-btn {
     max-width: 260px; /* Adjust as needed */
     height: auto;
 }
-.margin-bottom-25 {
-    margin-bottom: 25px;
+
+.hero-container{
+    position: relative;
+
+}
+.hero-container::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000000b5;
+}
+.hero-container::before {
+    content: '';
+    height: 200px;
+    width: 100%;
+    content: '';
+    display: block;
+    z-index: 4;
+    position: relative;
+    margin-top: -35vh;
+    background-image: url(../img/wg.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 1000px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 0;
+}
+.hero-container img {
+    width: 100%;
+    height: 82vh;
+    object-fit: cover;
+}
+
+.img-content-top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .img-content-top{
+        width: 100%;
+        padding: 20px;
+    }
+}
+.custom-align-items-center{
+    align-items: center;
+}
+.custom-bg-white{
+    background: #fff;
+}
+.card.card-hover-effect{
+    transition: .5s;
+}
+.card.card-hover-effect:hover .card-body,
+.card.card-hover-effect:hover .card-footer,
+.card.card-hover-effect:hover .card-header {
+    background: #ededed;
+}
+.case-studie.top-section {
+    text-align: center;
+    background: #172329;
+    color: #fff;
+    padding: 60px;
+    position: relative;
+}
+.case-studie.top-section::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #172329;
+    bottom: -35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.social-icon-footer i {
+    transition: .3s;
+}
+.social-icon-footer i:hover {
+    color: #FF9800;
+    transform: scale(1.1);
 }
