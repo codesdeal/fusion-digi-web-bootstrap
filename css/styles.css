@@ -134,8 +134,8 @@ span.big-screen-search-icon {
 }
 
 .tab-button.active {
-    background-color: #007bff;
-    color: white;
+    border-color: #007bff;
+    color: #007bff;
 }
 
 .tab-content {
@@ -165,7 +165,7 @@ span.big-screen-search-icon {
     line-height: 28px;
     text-align: center;
     letter-spacing: -.0045em;
-    color: #fff;
+    color: #fff !important;
     background: #207DE9 !important;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1581,4 +1581,289 @@ button.parallax-section-btn {
 .social-icon-footer i:hover {
     color: #FF9800;
     transform: scale(1.1);
+}
+/* service details */
+
+.service-details-hero-sec{
+    padding: 100px;
+    background: #207de926;
+}
+@media (max-width: 768px) {
+    .service-details-hero-sec{
+        padding: 15px;
+    } 
+}
+.hero-text-service {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #222;
+    margin-bottom: 30px;
+}
+.show-till-md{
+    display: block;
+}
+@media (max-width: 767px) {
+    .show-till-md{
+        display: none;
+    }
+}
+.hide-till-md{
+    display: none;
+}
+@media (max-width: 767px) {
+    .hide-till-md{
+        display: block;
+    }
+}
+
+
+
+
+.service-details-flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    border-radius: 50%;
+  }
+  
+  .service-details-flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    border-radius: 50%;
+  }
+  
+  .service-details-flip-card:focus {
+      outline: 0;
+  }
+  
+  .service-details-flip-card:hover .service-details-flip-card-inner,
+  .service-details-flip-card:focus .service-details-flip-card-inner{
+    transform: rotateY(180deg);
+  }
+  
+  .service-details-flip-card-front,
+  .service-details-flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 24px;
+  }
+  
+  .service-details-flip-card-front {
+    background: linear-gradient(to left, #4364f7, #6fb1fc);
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .service-details-flip-card-back {
+    background: linear-gradient(to right, #4364f7, #6fb1fc);
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .service-details-flip-card-back h5{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .service-details-flip-card-back p{
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  .service-details-value {
+    font-size: 40px;
+    font-weight: bold;
+}
+p.service-details-desc {
+    font-size: 13px;
+}
+
+.service-details-content-control {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 767px) {
+    .service-details-content-control {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-details-testimonial{
+        margin-top: 60px;
+        margin-right: unset !important;
+        max-width: 100% !important;
+    }
+}
+.service-details-testimonial {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .service-details-testimonial {
+        max-width: 300px;
+
+    }
+}
+
+.service-details-quote {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.service-details-reviewer span {
+    font-size: 13px;
+    color: gray;
+}
+.service-details-rating span {
+    font-size: 13px;
+}
+
+.service-details-reviewer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.service-details-reviewer .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
+.custom-border-right{
+    border-right: 2px solid #000;
+}
+
+.service-details-ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-details-rating {
+    display: flex;
+    align-items: center;
+}
+
+.service-details-stars {
+    color: red;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.col-lg-6 > .service-details-flip-card:nth-of-type(2) {
+    margin-left: 40%;
+    margin-top: -121px;
+}
+@media (max-width: 767px) {
+    .col-lg-6 > .service-details-flip-card:nth-of-type(2) {
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .card-rating-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+.service-details-testimonial {
+    margin-right: 5%;
+}
+.service-info-section-header-top{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.service-details-custom-text-align{
+    text-align: left;
+}
+@media (max-width: 767px) {
+    .service-info-section-header-top{
+        flex-direction: column;
+    }
+    .custom-border-right {
+        border-right: 0;
+        border-bottom: 1px solid #000;
+        padding: 15px !important;
+    }
+    .service-details-custom-text-align{
+        text-align: center;
+    }
+        
+    
+}
+.service-info-section-header-txt{
+    padding: 0 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.service-info-section-custom-padding{
+    padding: 0 100px;
+}
+@media (max-width: 768px) {
+    .service-info-section-custom-padding{
+        padding: 15px;
+    }
+}
+.custom-link{
+    border-bottom: 1px solid #000;
+}
+.custom-link:hover{
+    border-bottom: 1px solid #007bff;
+    color: #00A2FF;
+}
+
+.custom-tab-border-style {
+    border-bottom: 1px solid #ededed;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.custom-tab-border-style:hover{
+    color: #00A2FF;
+}
+.video-section {
+    float: left;
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.tab-side-img img{
+    float: left;
+    width: 100%;
 }
