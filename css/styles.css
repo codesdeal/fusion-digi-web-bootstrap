@@ -134,8 +134,8 @@ span.big-screen-search-icon {
 }
 
 .tab-button.active {
-    background-color: #007bff;
-    color: white;
+    border-color: #007bff;
+    color: #007bff;
 }
 
 .tab-content {
@@ -1590,7 +1590,7 @@ button.parallax-section-btn {
 }
 @media (max-width: 768px) {
     .service-details-hero-sec{
-        padding: 30px;
+        padding: 15px;
     } 
 }
 .hero-text-service {
@@ -1599,6 +1599,22 @@ button.parallax-section-btn {
     line-height: 30px;
     color: #222;
     margin-bottom: 30px;
+}
+.show-till-md{
+    display: block;
+}
+@media (max-width: 767px) {
+    .show-till-md{
+        display: none;
+    }
+}
+.hide-till-md{
+    display: none;
+}
+@media (max-width: 767px) {
+    .hide-till-md{
+        display: block;
+    }
 }
 
 
@@ -1692,7 +1708,7 @@ p.service-details-desc {
         align-items: center;
     }
     .service-details-testimonial{
-        margin: 15px 0;
+        margin-top: 60px;
         margin-right: unset !important;
         max-width: 100% !important;
     }
@@ -1779,6 +1795,8 @@ hr {
         flex-direction: column;
         align-items: center;
         gap: 15px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 }
 .service-details-testimonial {
@@ -1789,16 +1807,36 @@ hr {
     justify-content: center;
     margin-bottom: 35px;
 }
+.service-details-custom-text-align{
+    text-align: left;
+}
+@media (max-width: 767px) {
+    .service-info-section-header-top{
+        flex-direction: column;
+    }
+    .custom-border-right {
+        border-right: 0;
+        border-bottom: 1px solid #000;
+        padding: 15px !important;
+    }
+    .service-details-custom-text-align{
+        text-align: center;
+    }
+        
+    
+}
 .service-info-section-header-txt{
     padding: 0 15px;
     font-weight: bold;
+    text-align: center;
 }
+
 .service-info-section-custom-padding{
     padding: 0 100px;
 }
 @media (max-width: 768px) {
     .service-info-section-custom-padding{
-        padding: 30px;
+        padding: 15px;
     }
 }
 .custom-link{
@@ -1807,4 +1845,25 @@ hr {
 .custom-link:hover{
     border-bottom: 1px solid #007bff;
     color: #00A2FF;
+}
+
+.custom-tab-border-style {
+    border-bottom: 1px solid #ededed;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.custom-tab-border-style:hover{
+    color: #00A2FF;
+}
+.video-section {
+    float: left;
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.tab-side-img img{
+    float: left;
+    width: 100%;
 }
