@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fusion DigiWeb Marketing Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Header content goes here -->
+  <header id="header-area">
+    <div class="container-fluid">
+      <div class="row justify-content-between mx-2 mt-3 d-lg-flex d-none">
+        <div class="col-md-3">
+          <a href="#">
+            <div style="font-size: 13px;" class="fw-bold">REVENUE DRIVEN FOR OUR CLIENTS</div>
+            <div style="font-size: 18px; color: var(--primary);" class="fw-bold"> <i
+                class="fa-solid fa-chart-simple"></i> $10,085,355,239+</div>
+          </a>
+        </div>
+        <div class="col-md-9 d-flex justify-content-end top-right-option">
+          <a href="#" id="search-link"><i class="fa-solid fa-magnifying-glass me-2"></i> Search</a>
+          <div id="search-overlay" class="search-overlay">
+            <div class="search-bar-container">
+              <span class="big-screen-search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input type="text" id="search-input" placeholder="Type to search...">
+              <button id="close-search">&times;</button>
+            </div>
+            <div id="search-results">no search result</div>
+          </div>
+          <a href="#">Client Login</a>
+          <a href="#" style="color: var(--primary);" class="top-menu-num-hover fw-bold">888-601-5359</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- Navigation content goes here -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm d-lg-flex d-none">
+    <div class="container-fluid">
+      <div class="row w-100 custom-align-items-center custom-align-items-center">
+        <div class="col-md-3">
+          <a class="navbar-brand" href="index.html"><img src="img/logo-fusion-digiweb.png" height="60" class="logo"
+              alt="logo"></a>
+        </div>
+        <div class="col-md-9">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service-overview.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="case-studies-overview.html">Case Studies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonial.html">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+            <div>
+              <button type="submit" class="btn btn-primary get-proposal-btn">Get a Proposal</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- mobile-menu -->
+  <div class="border-bottom d-lg-none d-block">
+    <div class="p-4 d-flex justify-content-between align-items-center">
+      <div>
+        <a href="#" style="color: var(--primary);" class="top-menu-num-hover fw-bold">888-601-5359</a>
+      </div>
+
+      <div>
+        <button type="submit" class="btn btn-primary">get a proposal</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="sticky-top d-lg-none d-block" id="sticky-menu">
+    <div class="p-4 d-flex justify-content-between align-items-center shadow-sm">
+      <div>
+        <a href="#" style="color: var(--primary);" class="top-menu-num-hover fw-bold">
+          <img height="60" src="img/logo-fusion-digiweb.png" class="logo" alt="">
+        </a>
+      </div>
+      <div>
+        <a href="#" id="menu-toggle"><i class="fa-solid fa-bars"></i></a>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <div class="p-3 pt-0">
+        <a class="py-3 border-bottom" href="#">Menu Item 1</a>
+        <a class="py-3 border-bottom" href="#">Menu Item 2</a>
+        <a class="nav-link dropdown-toggle py-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </a>
+        <ul class="dropdown-menu cusotm-full-width-dropdown">
+          <li><a class="dropdown-item py-1" href="#">Action</a></li>
+          <li><a class="dropdown-item py-1" href="#">Another action</a></li>
+          <li><a class="dropdown-item py-1" href="#">Something else here</a></li>
+        </ul>
+      </div>
+
+      <div class="d-flex justify-content-between p-3 bg-light">
+        <a id="mobile-search-link" class="bg-white py-2 px-5 border"><i class="fa-solid fa-magnifying-glass"></i>
+          search</a>
+
+        <a href="#" class="bg-white py-2 px-5 border">clint login</a>
+      </div>
+    </div>
+  </div>
+
+
+  <main>
+    <!-- Hero Section content goes here -->
+    <section id="hero-bannar" class="section-margin-bottom">
+      <div class="service-details-hero-sec">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-6 col-12">
+              <h1 class="title-margin-bottom">Drive More Revenue With Digital Marketing Services</h1>
+              <p class="hero-text-service">More leads. More sales. More revenue. That’s digital marketing services from
+                WebFX. With a custom strategy, full-funnel ROI tracking, and data-driven insights from our revenue
+                marketing tech, we’ll help your business impact the metrics that matter most, from traffic to revenue.
+              </p>
+              <button class="btn get-proposal-btn">Get a Proposal</button>
+            </div>
+
+            <div class="col-lg-6 col-12 card-rating-section">
+              <div class="service-details-flip-card" tabIndex="0">
+                <div class="service-details-flip-card-inner">
+                  <div class="service-details-flip-card-front">
+                    <div class="service-details-value">91%</div>
+                    <h6 class="service-details-title">Retention Rate</h6>
+                    <p class="service-details-desc">Industry average: 50%</p>
+
+                  </div>
+                  <div class="service-details-flip-card-back">
+                    <h5>
+                      WHY IS OUR RETENTION RATE SO HIGH?
+                    </h5>
+                    <p>
+                      Scalable solutions
+                      Industry specialists
+                      Proven results
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="service-details-flip-card" tabIndex="0">
+                <div class="service-details-flip-card-inner">
+                  <div class="service-details-flip-card-front">
+                    <div class="service-details-value">91%</div>
+                    <h6 class="service-details-title">Retention Rate</h6>
+                    <p class="service-details-desc">Industry average: 50%</p>
+
+                  </div>
+                  <div class="service-details-flip-card-back">
+                    <h5>
+                      WHY IS OUR RETENTION RATE SO HIGH?
+                    </h5>
+                    <p>
+                      Scalable solutions
+                      Industry specialists
+                      Proven results
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="service-details-content-control">
+
+                <div class="service-details-testimonial">
+                  <p class="service-details-quote">“I have 16 years of industry experience, and WebFX is the best agency
+                    I’ve ever worked with.”</p>
+                  <div class="service-details-reviewer">
+                    <img src="./img/logo-3.png" alt="Clutch Logo" class="logo">
+                    <span>Flavia A, Review from Clutch.co</span>
+                  </div>
+                  <hr>
+                  <div class="service-details-ratings">
+                    <div class="service-details-rating">
+                      <span class="service-details-stars">★★★★★</span>
+                      <span>Rated 4.8/5 stars on G2</span>
+                    </div>
+                    <div class="service-details-rating">
+                      <span class="service-details-stars">★★★★★</span>
+                      <span>Rated 4.9/5 stars on Clutch</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="service-details-flip-card" tabIndex="0">
+                  <div class="service-details-flip-card-inner">
+                    <div class="service-details-flip-card-front">
+                      <div class="service-details-value">91%</div>
+                      <h6 class="service-details-title">Retention Rate</h6>
+                      <p class="service-details-desc">Industry average: 50%</p>
+
+                    </div>
+                    <div class="service-details-flip-card-back">
+                      <h5>
+                        WHY IS OUR RETENTION RATE SO HIGH?
+                      </h5>
+                      <p>
+                        Scalable solutions
+                        Industry specialists
+                        Proven results
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="hero-container">
+         <img class="" src="./img/billboard-pay-per-click.jpg" alt="">
+         <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="img-content-top">
+                <h1 class="title-margin-bottom">Today’s Buying Experience Starts Online. <br> Are Your Customers Finding You?</h1>
+    
+                <p class="card-text section-col-margin">
+                  Products and services are just a smartphone search away for local-area customers. All it takes is a Google query to point people to a local business that can help them. You need to meet customers where they’re searching and make sure your business is the obvious choice.
+                </p>
+
+                <button class="btn get-proposal-btn">Get a Proposal</button>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div> -->
+
+    </section>
+
+
+    <!-- service info section -->
+    <section id="service-section" class="section-margin-bottom">
+      <div class="container">
+        <div class="row custom-justify-content-center service-info-section-custom-padding">
+            <div class="service-info-section-header-top ">
+              <div class="custom-border-right small-txt service-info-section-header-txt">500+ DIGITAL EXPERTS</div>
+              <div class="custom-border-right small-txt service-info-section-header-txt">28-YEAR TRACK RECORD</div>
+              <div class="custom-border-right small-txt service-info-section-header-txt">1,100+ REVIEWS</div>
+              <div class="custom-border-right small-txt service-info-section-header-txt">IN-HOUSE TECHNOLOGY</div>
+            </div>
+
+            <h1 class="title-margin-bottom custom-text-center">What do our digital marketing services include?</h1>
+
+            <p class="custom-text-center">
+              With our customizable digital marketing services, you’ll get everything you need for your digital marketing campaigns, from the strategies to the specialists. Browse our most popular online marketing solutions below. Need a website marketing service you don’t see? <a class="custom-link" href="#">Contact us online</a> today!
+
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tabbed-content-area">
+      <div class="container">
+        <div class="row justify-content-center mx-auto">
+          <div class="col-4 d-flex flex-column" id="tab-buttons">
+            <a class="border tab-button" id="tab1" data-target="content1">Tab 1</a>
+            <a class="border tab-button" id="tab2" data-target="content2">Tab 2</a>
+            <a class="border tab-button" id="tab3" data-target="content3">Tab 3</a>
+            <a class="border tab-button" id="tab4" data-target="content4">Tab 4</a>
+          </div>
+          <div class="col-8" class="tab-contents">
+            <div id="content1" class="tab-content active"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Dolorem in et aliquam impedit omnis. Enim sequi nostrum perferendis nihil quisquam quae illum suscipit
+              mollitia, nobis fugiat, quos minima molestias consequatur! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Maiores porro dolorem nostrum perferendis quibusdam libero vel veniam commodi
+              accusantium molestias! Architecto odit veniam rerum porro inventore tempora numquam odio esse. </div>
+            <div id="content2" class="tab-content">Content for Tab 2</div>
+            <div id="content3" class="tab-content">Content for Tab 3</div>
+            <div id="content4" class="tab-content">Content for Tab 4</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="fdw-footer-v2">
+    <div class="container-fluid p-0">
+      <div class="row footer-inner-style">
+        <div class="col-lg-2 col-md-4 col-12 footer-section mb-5 footer-left-ext-padding">
+          <ul class="nav flex-column">
+            <li> <a href="#"><img class="w-100" src="img/logo-fusion-digiweb.png" alt=""></a> </li>
+            <li class="footer-xs-text footer-margin">Celebrating 25+ Years of Digital Marketing Excellence</li>
+            <li>Ready to speak with a marketing expert? Give us a ring</li>
+            <li><button class="btn bth-custom-hover">111 444 555</button></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+
+          <!-- for large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">SERVICES</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing Services</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO Services</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC Services</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing Services</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media Services</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design Services</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Advertising
+                  Services</a></li>
+            </ul>
+          </div>
+
+
+          <!-- for mobile -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading">
+              <a href="#" id="services-toggle">
+                SERVICES <i class="fa-solid fa-chevron-down ms-3"></i>
+              </a>
+            </div>
+            <ul id="services-list" class="list-unstyled d-none">
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Digital Marketing Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">SEO Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">PPC Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Content Marketing Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Social Media Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Web Design Services</a>
+              </li>
+              <li class="custom-margin-bottom-li">
+                <a href="#" class="footer-option-title">Digital Advertising Services</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+          <!-- for large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">KNOWLEDGEBASE</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Amazon</a></li>
+            </ul>
+          </div>
+
+          <!-- for mobile screen -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading"><a href="#" id="toggleKnowledgebase">KNOWLEDGEBASE <i
+                  class="fa-solid fa-chevron-down ms-3"></i></a></div>
+            <ul class="list-unstyled d-none" id="knowledgebaseList">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Amazon</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+          <!-- for large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">ROLES</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing Agency</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing Agency</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Industries We Serve</a></li>
+            </ul>
+          </div>
+
+          <!-- for mobile screen -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading" id="toggleRoles"> <a href="#">ROLES <i
+                  class="fa-solid fa-chevron-down ms-3"></i></a> </div>
+            <ul class="list-unstyled" id="rolesList">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Digital Marketing Agency</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">PPC Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Content Marketing Agency</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Social Media Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Web Design Agency</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Industries We Serve</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+          <!-- for large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">COMPANY</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">About Us</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Careers</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Community Impact</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Contact Us</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Locations</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Phishing Scam Alert</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Tools</a></li>
+            </ul>
+          </div>
+
+          <!-- for mobile screen -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading" id="toggleCompany">
+              <a href="#">COMPANY <i class="fa-solid fa-chevron-down ms-3"></i></a>
+            </div>
+            <ul class="list-unstyled" id="companyList">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">About Us</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Careers</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Community Impact</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Contact Us</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Locations</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Phishing Scam Alert</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Tools</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-12 footer-section">
+          <!-- large screen -->
+          <div class="d-md-block d-none">
+            <div class="footer-heading">EXPLORE</div>
+            <ul class="list-unstyled">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Color Picker</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Emoji Cheat Sheet</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Conversion Rate Calculator</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO in Digital Marketing</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO vs. SEM</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Return on Ad Spend</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">ROAS Calculator</a></li>
+            </ul>
+          </div>
+
+          <!-- mobile screen -->
+          <div class="d-md-none d-block">
+            <div class="footer-heading" id="toggleExplore"> <a href="#">EXPLORE <i
+                  class="fa-solid fa-chevron-down ms-3"></i></a> </div>
+            <ul class="list-unstyled" id="exploreList">
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Color Picker</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Emoji Cheat Sheet</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Conversion Rate Calculator</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO in Digital Marketing</a>
+              </li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">SEO vs. SEM</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">Return on Ad Spend</a></li>
+              <li class="custom-margin-bottom-li"><a href="#" class="footer-option-title">ROAS Calculator</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row footer-inner-style-2">
+      <div class="col-lg-10 footer-bootom">
+        <p>PROUDLY BROUGHT TO YOU BY Fusion DigiWeb</p>
+      </div>
+      <div class="col-lg-2">
+        <div class="">
+          <div class="footer-bootom"> Fusion DigiWeb® 1995-2024</div>
+          <a class="footer-option-title me-2" href="#">Sitemap</a>
+          <a class="footer-option-title-2" href="#">Privacy & Terms of Use</a>
+          <div class="social-icon-footer">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js" async></script>
+
+  <script>
+    // Tab functionality
+    const tabs = document.querySelectorAll('.tab-button');
+    const contents = document.querySelectorAll('.tab-content');
+
+    function hideAllContents() {
+      contents.forEach(content => {
+        content.classList.remove('active');
+      });
+    }
+
+    function deactivateAllTabs() {
+      tabs.forEach(tab => {
+        tab.classList.remove('active');
+      });
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', function () {
+        hideAllContents();
+        deactivateAllTabs();
+
+        const target = this.getAttribute('data-target');
+        document.getElementById(target).classList.add('active');
+        this.classList.add('active');
+      });
+    });
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+      // Function to toggle visibility
+      function toggleVisibility(toggleId, listId) {
+        var toggle = document.getElementById(toggleId);
+        var list = document.getElementById(listId);
+
+        if (toggle && list) {
+          toggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            list.classList.toggle('d-none');
+          });
+        }
+      }
+
+      // Toggle for KNOWLEDGEBASE
+      toggleVisibility('toggleKnowledgebase', 'knowledgebaseList');
+
+      // Toggle for ROLES
+      toggleVisibility('toggleRoles', 'rolesList');
+
+      // Toggle for COMPANY
+      toggleVisibility('toggleCompany', 'companyList');
+
+      // Toggle for EXPLORE
+      toggleVisibility('toggleExplore', 'exploreList');
+
+      // Toggle for SERVICES
+      toggleVisibility('services-toggle', 'services-list');
+
+      // Ensure other sections are initially hidden
+      var sectionsToHide = ['rolesList', 'companyList', 'exploreList'];
+      sectionsToHide.forEach(function (sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+          section.classList.add('d-none');
+        }
+      });
+
+      // icon item
+      const iconItems = document.querySelectorAll('.icon-item');
+
+      iconItems.forEach(item => {
+        item.addEventListener('click', () => {
+          // Remove the active class from all items
+          iconItems.forEach(i => i.classList.remove('icon-item-active'));
+          // Add the active class to the clicked item
+          item.classList.add('icon-item-active');
+        });
+      });
+    });
+
+
+  </script>
+</body>
+
+</html>
