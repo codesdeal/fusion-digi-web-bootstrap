@@ -357,6 +357,10 @@ li.custom-margin-bottom-li {
     text-align: center;
     margin-bottom: 70px;
 }
+
+.review-section-title {
+    text-align: center;
+}
 @media (max-width: 768px) {
     .section-title {
         margin-bottom: 40px;
@@ -636,6 +640,7 @@ li.custom-margin-bottom-li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: #f3f3f3;
 }
 .review-card-body {
     max-height: 200px;
@@ -643,22 +648,26 @@ li.custom-margin-bottom-li {
 }
 .stars {
     color: #007bff;
+    text-align: right;
+}
+.review-card-header {
+    font-weight: bold;
 }
 .review-card-footer {
     font-weight: bold;
-    color: #b8b8b8;
+    /* color: #b8b8b8; */
 }
 .card-text {
     height: 175px;
 }
 .review-spacing {
     padding: 0;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
   }
   
   @media (min-width: 992px) {
     .review-spacing {
-      margin-bottom: 0;
+      margin-bottom: 30;
     }
   }
   .location-hover:hover{
@@ -962,7 +971,7 @@ a.solutions-button {
     margin: 10px 0 20px;
 }
 .custom-card-2-button {
-    background-color: #e94b35;
+    background-color: var(--primary);
     border: none;
     color: white;
     padding: 12px 24px;
@@ -975,7 +984,7 @@ a.solutions-button {
     justify-content: center;
 }
 .custom-card-2-button:hover {
-    background-color: #d74130;
+    background-color: var(--primary-hover);
 }
 .custom-card-2-button svg {
     margin-left: 8px;
