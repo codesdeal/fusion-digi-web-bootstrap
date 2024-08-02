@@ -609,6 +609,7 @@ li.custom-margin-bottom-li {
     justify-content: space-around;
     align-items: center;
     overflow-x: auto;
+    padding-bottom: 40px;
 }
 
 .icon-item {
@@ -842,6 +843,7 @@ li.custom-margin-bottom-li {
 @media (max-width: 425px) {
     .all-review-section {
         margin: 30px;
+        width: calc(100% - 60px);
     }
 }
 
